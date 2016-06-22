@@ -15,6 +15,11 @@
 		209CAC881D1A29F600CACFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209CAC861D1A29F600CACFA9 /* LaunchScreen.storyboard */; };
 		209CAC931D1A29F600CACFA9 /* testDogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CAC921D1A29F600CACFA9 /* testDogTests.m */; };
 		209CAC9E1D1A29F600CACFA9 /* testDogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CAC9D1D1A29F600CACFA9 /* testDogUITests.m */; };
+		209CACAE1D1A2ABE00CACFA9 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CACAC1D1A2ABE00CACFA9 /* Cell.m */; };
+		209CACAF1D1A2ABE00CACFA9 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209CACAD1D1A2ABE00CACFA9 /* Cell.xib */; };
+		209CACB21D1A350100CACFA9 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CACB11D1A350100CACFA9 /* SessionManager.m */; };
+		209CACB51D1A814E00CACFA9 /* TransData.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CACB41D1A814E00CACFA9 /* TransData.m */; };
+		209CACB81D1A82AD00CACFA9 /* animalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CACB71D1A82AD00CACFA9 /* animalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		209CAC991D1A29F600CACFA9 /* testDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		209CAC9D1D1A29F600CACFA9 /* testDogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDogUITests.m; sourceTree = "<group>"; };
 		209CAC9F1D1A29F600CACFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209CACAB1D1A2ABE00CACFA9 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		209CACAC1D1A2ABE00CACFA9 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		209CACAD1D1A2ABE00CACFA9 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		209CACB01D1A350100CACFA9 /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		209CACB11D1A350100CACFA9 /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+		209CACB31D1A814E00CACFA9 /* TransData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransData.h; sourceTree = "<group>"; };
+		209CACB41D1A814E00CACFA9 /* TransData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransData.m; sourceTree = "<group>"; };
+		209CACB61D1A82AD00CACFA9 /* animalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animalData.h; sourceTree = "<group>"; };
+		209CACB71D1A82AD00CACFA9 /* animalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,15 @@
 				209CAC7C1D1A29F600CACFA9 /* AppDelegate.m */,
 				209CAC7E1D1A29F600CACFA9 /* ViewController.h */,
 				209CAC7F1D1A29F600CACFA9 /* ViewController.m */,
+				209CACB01D1A350100CACFA9 /* SessionManager.h */,
+				209CACB11D1A350100CACFA9 /* SessionManager.m */,
+				209CACB31D1A814E00CACFA9 /* TransData.h */,
+				209CACB41D1A814E00CACFA9 /* TransData.m */,
+				209CACB61D1A82AD00CACFA9 /* animalData.h */,
+				209CACB71D1A82AD00CACFA9 /* animalData.m */,
+				209CACAB1D1A2ABE00CACFA9 /* Cell.h */,
+				209CACAC1D1A2ABE00CACFA9 /* Cell.m */,
+				209CACAD1D1A2ABE00CACFA9 /* Cell.xib */,
 				209CAC811D1A29F600CACFA9 /* Main.storyboard */,
 				209CAC841D1A29F600CACFA9 /* Assets.xcassets */,
 				209CAC861D1A29F600CACFA9 /* LaunchScreen.storyboard */,
@@ -244,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				209CAC881D1A29F600CACFA9 /* LaunchScreen.storyboard in Resources */,
+				209CACAF1D1A2ABE00CACFA9 /* Cell.xib in Resources */,
 				209CAC851D1A29F600CACFA9 /* Assets.xcassets in Resources */,
 				209CAC831D1A29F600CACFA9 /* Main.storyboard in Resources */,
 			);
@@ -270,7 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209CACB51D1A814E00CACFA9 /* TransData.m in Sources */,
+				209CACB21D1A350100CACFA9 /* SessionManager.m in Sources */,
 				209CAC801D1A29F600CACFA9 /* ViewController.m in Sources */,
+				209CACAE1D1A2ABE00CACFA9 /* Cell.m in Sources */,
+				209CACB81D1A82AD00CACFA9 /* animalData.m in Sources */,
 				209CAC7D1D1A29F600CACFA9 /* AppDelegate.m in Sources */,
 				209CAC7A1D1A29F600CACFA9 /* main.m in Sources */,
 			);
@@ -416,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testDog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Evan.testDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testDog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Evan.testDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
